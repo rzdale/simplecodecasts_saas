@@ -9,7 +9,7 @@ class ContactMailer < ActionMailer::Base
     end
     
     
-    mail(:from => @email, :subject => "Contact Form Message")
+    mail(:from => "test@tes939392458t.com", :subject => "Contact Form Message")
     
     
 end
