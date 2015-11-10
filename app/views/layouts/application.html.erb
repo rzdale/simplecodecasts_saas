@@ -6,7 +6,12 @@
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= javascript_include_tag 'http://js.stripe.com/v2/', type: 'text/javascript' %>
   <%= javascript_include_tag 'application' %>
-  <%= tag :meta, :name => "stripe_key", :content => STRIPE_PUBLIC_KEY %>
+  
+
+  
+  <%= tag :meta, :name => "stripe-key", :content => "pk_test_WZtf2IBKaHfCW1yCjfHtxecO"%>
+  
+  
   <%= csrf_meta_tags %>
 </head>
 <body>
