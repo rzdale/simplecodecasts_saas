@@ -1,4 +1,9 @@
+<% if current_user.profile %>
+<%= link_to "You have a profile", new_user_profile_path(current_user) if current_user %>
+<% else %>
 <%= link_to "Create your profile!", new_user_profile_path(current_user) if current_user %>
+<% end %>
+
 
 <div class="jumbotron text-center">
     <h1>Welcome to DevMatch</h1>
@@ -6,6 +11,10 @@
     <h3>A membership site where entrepeneurs can meet up with developers.</h3>
 </div>
 
+
+
+
+<% if !current_user %>
 
 <div class="row">
     <div class="col-md-6">
@@ -23,5 +32,7 @@
             <%= link_to "Sign up with Pro", new_user_registration_path(:plan => @pro_plan.id), class: "btn btn-success btn-lg btn-block" %>
         </div>
     </div>
-
 </div>
+
+<% end %>
+
