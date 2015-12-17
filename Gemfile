@@ -54,3 +54,7 @@ gem 'figaro', '1.0.0'
 # gem 'capistrano-rails', group: :development
 # Use debugger
 gem 'pry-rails', group: [:development, :test]
+
+
+#use paperclip for image uploads
+gem 'paperclip', '4.2.1'
