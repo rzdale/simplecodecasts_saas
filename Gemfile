@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '7.1.3.2'
 # Use sqlite3 as the database for s Record
 gem 'sqlite3', group: [:development, :test]
 
@@ -13,7 +13,7 @@ group :production do
   gem 'rails_12factor'
 end
 # Use SCSS for stylesheets
-gem 'sass-rails', '4.0.3'
+gem 'sass-rails', '6.0.0'
 
 gem 'font-awesome-rails'
 
@@ -23,7 +23,7 @@ gem 'font-awesome-sass', '4.2.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '4.0.0'
+gem 'coffee-rails', '5.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 # Use jquery as the JavaScript library
@@ -38,13 +38,13 @@ gem 'sdoc', '0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use devise for user auth
-gem 'devise', '3.4.1'
+gem 'devise', '4.9.4'
 
 # Use stripe for handling payments
 gem 'stripe', '1.16.1'
 
 # Use figaro to hide secret keys
-gem 'figaro', '1.0.0'
+gem 'figaro', '1.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
