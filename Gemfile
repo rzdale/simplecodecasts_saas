@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 gem 'devise', '4.9.4'
 
 # Use stripe for handling payments
-gem 'stripe', '1.16.1'
+gem 'stripe', '11.2.0'
 
 # Use figaro to hide secret keys
 gem 'figaro', '1.2.0'
